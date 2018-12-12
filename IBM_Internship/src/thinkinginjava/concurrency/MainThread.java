@@ -8,8 +8,15 @@ public class MainThread {
 //            new Thread(new LiftOff()).start();
 //        }
 //        System.out.println("Waiting for LiftOff");
-        for(int i = 0; i < 5; i++){
-            new Thread(new Exercise1()).start();
+        //exercise 1
+//        for(int i = 0; i < 5; i++){
+//            new Thread(new Exercise1()).start();
+//        }
+
+        //exercise 2
+        int var = 3;
+        for(int i = 0; i < 3; i++){
+            new Thread(new Exercise2(var++)).start();
         }
     }
 }
