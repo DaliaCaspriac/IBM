@@ -1,0 +1,15 @@
+package thinkinginjava.concurrency;
+
+public class MainThread {
+    public static void main(String[] args) {
+//        LiftOff launch = new LiftOff();
+//        launch.run();
+//        for(int i = 0 ; i < 5; i++){
+//            new Thread(new LiftOff()).start();
+//        }
+//        System.out.println("Waiting for LiftOff");
+        for(int i = 0; i < 5; i++){
+            new Thread(new Exercise1()).start();
+        }
+    }
+}
