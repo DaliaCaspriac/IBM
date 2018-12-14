@@ -10,5 +10,13 @@ public class Main {
         Root root = new Root();
         System.out.println("---------------------");
         Stem stem = new Stem();
+
+        //Exercise 12:   (3) Add a proper hierarchy of dispose( ) methods to all the classes
+        // in Exercise 9.
+        try {
+            System.out.println("----Exercise 12----");
+        } finally {
+            stem.dispose();
+        }
     }
 }
