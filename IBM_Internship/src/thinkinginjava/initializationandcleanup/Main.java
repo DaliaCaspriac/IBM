@@ -41,5 +41,37 @@ public class Main {
         System.out.println("Exercise 8");
         ThisClass c = new ThisClass();
         c.first();
+
+        //Exercise 21: (1) Create an enum of the least-valuable six types of paper currency.
+        // Loop through the values( ) and print each value and its ordinal( ).
+        for (PaperCurrency item : PaperCurrency.values()) {
+            System.out.println(item);
+            System.out.println("Ordinal " + item.ordinal());
+        }
+
+
+        //Exercise 22: (2) Write a switch statement for the enum in the previous example.
+        // For each case, output a description of that particular currency.
+        for (PaperCurrency item : PaperCurrency.values()) {
+            switch (item) {
+                case ONE:
+                    System.out.println("Green");
+                    break;
+                case FIVE:
+                    System.out.println("Purple");
+                    break;
+                case TEN:
+                    System.out.println("Orange");
+                    break;
+                case FIFTY:
+                    System.out.println("Yellow");
+                    break;
+                case HUNDRED:
+                    System.out.println("Blue");
+                    break;
+                default:
+                    System.out.println("no paper currency");
+            }
+        }
     }
 }
