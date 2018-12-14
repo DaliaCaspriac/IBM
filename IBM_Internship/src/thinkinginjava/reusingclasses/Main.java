@@ -28,5 +28,23 @@ public class Main {
         childrenClass.doSomething(5);
         childrenClass.doSomething(20.9f);
         childrenClass.doSomething(44.27d);
+
+        //Exercise 16: (2) Create a class called Amphibian. From this, inherit a class called Frog.
+        // Put appropriate methods in the base class. In main( ), create a Frog and
+        // upcast it to Amphibian and demonstrate that all the methods still work.
+        System.out.println("----Exercise16----");
+        Amphibian frog = new Frog();
+        frog.say();
+        frog.eat();
+        frog.drink();
+
+        //Exercise 17:  (1) Modify Exercise 16 so that Frog overrides the method definitions
+        // from the base class (provides new definitions using the same method signatures).
+        // Note what happens in main( ).
+        System.out.println("----Exercise17-----");
+        Amphibian frog2 = new Frog();
+        frog2.say();
+        frog2.eat();
+        frog2.drink();
     }
 }
