@@ -6,7 +6,7 @@ public class Main {
         // Make it have two constructors, one with both firstname and surname,
         // and one with full name (we assume each individual has only one surname
         // and at least one firstname separated by spaces). Test in main class.
-        System.out.println("---------Ex1--------");
+        System.out.println("---------Ex 1--------");
         Person person1 = new Person("dalia","caspriac");
         Person person2 = new Person("ioana dalia caspriac");
         System.out.println(person1.toString());
@@ -24,12 +24,18 @@ public class Main {
         tank1.add(new Integer(5));
 
         new Tank().add(10);
-        
+
         Tank tank2 = new Tank();
         tank2.add(new Integer(3));
         tank2.add(new Integer(9));
         tank2.empty();
 
         System.gc();
+
+        //Create a small application that demonstrates (with sysouts)
+        // the order in which constructors, local variables, fields, static blocks
+        // are initialized / called - consider using superclasses as well.
+        System.out.println("------Ex 3--------");
+        Car car = new Car("audi");
     }
 }
