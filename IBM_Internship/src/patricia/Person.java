@@ -25,7 +25,7 @@ public class Person {
         }
         this.firstname = fName;
     }
-    
+
     @Override
     public String toString() {
         return "Person{" +
