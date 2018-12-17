@@ -28,5 +28,25 @@ public class Main {
         Rodent r = new Mouse();
         r.sleep();
 
+        //Exercise 17: (2) Using the Cycle hierarchy from Exercise 1, add a balance( ) method
+        // to Unicycle and Bicycle, but not to Tricycle.
+        // Create instances of all three types and upcast them to an array of Cycle.
+        // Try to call balance( ) on each element of the array and observe the results.
+        // Downcast and call balance( ) and observe what happens.
+        Unicycle unicycle = new Unicycle();
+        Bicycle bicycle = new Bicycle();
+        Tricycle tricycle = new Tricycle();
+        Cycle[] cycles = new Cycle[3];
+        cycles[0] = unicycle;
+        cycles[1] = bicycle;
+        cycles[2] = tricycle;
+//        for(int i = 0; i < cycles.length; i++){
+//            //cycles[i].balance(0); cannot find the method
+//        }
+        ((Unicycle)cycles[0]).balance();
+        ((Bicycle)cycles[1]).balance();
+//        ((Tricycle)cycles[2]).balance(); cannot find the method
+
+
     }
 }

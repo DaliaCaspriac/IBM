@@ -6,4 +6,8 @@ public class Bicycle extends Cycle {
     public int wheels(){
         return nOWheels;
     }
+
+    public void balance(){
+        System.out.println("Balance from Bicyle");
+    }
 }
