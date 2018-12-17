@@ -2,7 +2,8 @@ package thinkinginjava.initializationandcleanup;
 
 public class Dog {
 
-    private String name;
+    private static  String name;
+    public  static  String blanita = "maro";
 
     //Exercise 3: (1) Create a class with a default constructor (one that takes no arguments)
     // that prints a message. Create an object of this class.

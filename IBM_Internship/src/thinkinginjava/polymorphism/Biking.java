@@ -17,5 +17,8 @@ public class Biking {
     public static void ride(Cycle cycle){
         System.out.println("ride...");
         go(cycle);
+        //System.out.println(cycle.wheels());
     }
+
+
 }

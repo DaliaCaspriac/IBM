@@ -30,6 +30,9 @@ public class Main {
         tank2.add(new Integer(9));
         tank2.empty();
 
+        Tank tank4 = new Tank();
+        tank4.add(10);
+        tank4 = new Tank();
         System.gc();
 
         //Create a small application that demonstrates (with sysouts)

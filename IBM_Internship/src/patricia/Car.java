@@ -6,6 +6,7 @@ public class Car extends Vehicle {
     static {
         System.out.println("Static block from Car class");
     }
+
     public Car(String model) {
         super(4, true);
         this.model = model;
