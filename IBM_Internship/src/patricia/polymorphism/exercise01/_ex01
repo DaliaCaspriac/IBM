@@ -1,0 +1,5 @@
+Take the first exercise from above and make the class that holds the person
+to be an abstract one. Add two abstract methods: getBirthDate() and selfDescribe().
+ Create at least two other persons having different nationalities,
+ and for each the selfDescribe() method should return a short description of that person
+ in his own language, including his / her age. Test everything in a main method.

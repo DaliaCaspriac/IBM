@@ -17,7 +17,7 @@ public class Main {
         all.add(new Mouse());
         all.add(new Hamster());
         all.add(new Gerbil());
-        for(Rodent rodent : all){
+        for (Rodent rodent : all) {
             System.out.println(rodent.eat());
         }
 
@@ -43,8 +43,8 @@ public class Main {
 //        for(int i = 0; i < cycles.length; i++){
 //            //cycles[i].balance(0); cannot find the method
 //        }
-        ((Unicycle)cycles[0]).balance();
-        ((Bicycle)cycles[1]).balance();
+        ((Unicycle) cycles[0]).balance();
+        ((Bicycle) cycles[1]).balance();
 //        ((Tricycle)cycles[2]).balance(); cannot find the method
 
 
