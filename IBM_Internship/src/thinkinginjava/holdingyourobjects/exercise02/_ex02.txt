@@ -1,0 +1,1 @@
+Exercise 2:   (1) Modify SimpleCollection.java to use a Set for c. 
