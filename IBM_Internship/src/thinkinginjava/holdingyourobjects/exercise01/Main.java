@@ -12,8 +12,9 @@ public class Main {
         gerbils.add(new Gerbil(4));
         gerbils.add(new Gerbil(3));
         gerbils.add(new Gerbil(5));
-        for(Gerbil gerbil : gerbils){
-            System.out.println(gerbil.hop());
+        for(int i  = 0; i < gerbils.size(); i++){
+
+            System.out.println(gerbils.get(i).hop());
         }
     }
 }
