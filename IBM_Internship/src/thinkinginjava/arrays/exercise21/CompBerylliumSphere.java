@@ -1,7 +1,5 @@
 package thinkinginjava.arrays.exercise21;
 
-import thinkinginjava.arrays.exercise02.BerylliumSphere;
-
 public class CompBerylliumSphere implements Comparable<CompBerylliumSphere> {
     private static long count;
     protected final long id = count++;
