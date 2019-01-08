@@ -1,4 +1,4 @@
-package patricia;
+package patricia.other;
 
 public class Car extends Vehicle {
     private String model;

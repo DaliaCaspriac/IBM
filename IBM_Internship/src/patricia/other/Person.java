@@ -1,4 +1,4 @@
-package patricia;
+package patricia.other;
 
 /*
 Create a class that holds the firstname and the surname of a person.
