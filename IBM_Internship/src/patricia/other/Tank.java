@@ -1,4 +1,4 @@
-package patricia;
+package patricia.other;
 
 import java.util.ArrayList;
 import java.util.List;
