@@ -37,7 +37,7 @@ public class SortingAnyCollection {
         ((ArrayList<Double>) doubles).add(29.4d);
         ((ArrayList<Double>) doubles).add(2.102d);
         ((ArrayList<Double>) doubles).add(10.238d);
-        Collection<Double> sortedDoubles = sortCollection(doubles);
+        Collection<Double> sortedDoubles = bubbleSortCollection(doubles);
         printCollection(sortedDoubles);
 
         System.out.println("--------------------------------------------");
@@ -49,7 +49,7 @@ public class SortingAnyCollection {
         ((ArrayList<String>) strings).add("a");
         ((ArrayList<String>) strings).add("ta");
         ((ArrayList<String>) strings).add("mi");
-        Collection<String> sortedStrings = sortCollection(strings);
+        Collection<String> sortedStrings = bubbleSortCollection(strings);
         printCollection(sortedStrings);
     }
 }
