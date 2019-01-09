@@ -1,4 +1,4 @@
-package patricia.generics;
+package patricia.generics.mycollection;
 
 import java.util.Collection;
 
