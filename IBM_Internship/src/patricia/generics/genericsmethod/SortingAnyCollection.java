@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 
 public class SortingAnyCollection {
-    public static <T extends Comparable<T>> Collection<T> sortCollection(Collection<T> collection) {
+    public static <T extends Comparable<T>> Collection<T> bubbleSortCollection(Collection<T> collection) {
         int n = collection.size();
         ArrayList<T> all = new ArrayList<>();
         all.addAll(collection);
