@@ -18,7 +18,7 @@ public class Main {
     public static void getAndDisplayFirstNNaturalNumbers2(int n) {
         Stream.generate(new AtomicInteger(0)::getAndIncrement)
                 .limit(n)
-                .forEach(System.out::print);
+                .forEach(System.out::println);
     }
 
     public static void main(String[] args) {
