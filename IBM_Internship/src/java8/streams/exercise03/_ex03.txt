@@ -1,0 +1,3 @@
+ Same as previous, but exploit the generate() method
+ Hint: define a Supplier class that sequentially provides the
+integers and pass it to generate()
