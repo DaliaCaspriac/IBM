@@ -1,0 +1,1 @@
+a. A function that adds up numbers, i.e., int addUp(Stream<Integer> numbers)
