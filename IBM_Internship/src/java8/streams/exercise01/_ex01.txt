@@ -1,0 +1,2 @@
+ Define a stream that counts the occurrences of an element in
+a list
