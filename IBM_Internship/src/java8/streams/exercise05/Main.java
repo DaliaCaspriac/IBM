@@ -3,18 +3,13 @@ package java8.streams.exercise05;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.function.Function;
 import java.util.function.Predicate;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 public class Main {
     public static Predicate<String> isInteger(){
         return str -> str.matches("[0-9]+");
     }
-//    public static Function<Integer, Integer> mySum(Integer i){
-//
-//    }
+
     public static int sumIntegers(List<String> string, Predicate<String> predicate){
         return string.stream()
                 .filter(predicate)

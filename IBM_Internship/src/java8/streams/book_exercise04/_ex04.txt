@@ -1,0 +1,3 @@
+7. Find the String with the largest number of lowercase letters from a
+List<String>. You can return an Optional<String> to account for the empty list
+case.

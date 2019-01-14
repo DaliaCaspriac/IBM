@@ -1,0 +1,2 @@
+6. Count the number of lowercase letters in a String (hint: look at the chars method
+on String).
