@@ -1,0 +1,7 @@
+Iteration. Convert this code sample from using external iteration to internal itera‐
+tion:
+ int totalMembers = 0;
+ for (Artist artist : artists) {
+ Stream<Artist> members = artist.getMembers();
+ totalMembers += members.count();
+ }

@@ -9,9 +9,7 @@ public class Main {
     public static Predicate<String> isInteger(){
         return str -> str.matches("[0-9]+");
     }
-//    public static Function<Integer, Integer> mySum(Integer i){
-//
-//    }
+
     public static int sumIntegers(List<String> string, Predicate<String> predicate){
         return string.stream()
                 .filter(predicate)
